@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeTribe Task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    h5{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 0px;
+}
+p{
+    color: #a9a9a9;
+    font-size: 10px;
+}
+h1{
+  color: #a9a9a9;
+  font-size: 10px;
+  float: right;
+  margin: auto;
+  margin-top: 2px;
+  margin-left: -70px;
+  margin-right: 25px;
+  padding: 10px 15px 0px 0px;
+}
+img{
+  padding: 13px 25px 0px 0px;
+  height: 13px;
+  width: 13px; 
+
+}
+H3{
+  color: #a9a9a9;
+  font-size: 90%;
+  margin: -5px;
+  padding: 10px 10px 0px 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+img#chan{
+  width: 5px;
+  height: 4px;
+  margin: 25px;
+  padding: 20px 60px 10px 30px;
+}
+p{
+  margin: -73px;
+  padding:25px 80px 30px 105px;
+  color: #32cd32;
+}
+switch{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  
+}
+.switch input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 5px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  background-color: aqua;
+  -webkit-transition: .4s;
+  transition: .4s;
+  
+}.slider:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: darkblue;
+  -webkit-tranform: .4s;
+  border-radius: 5px;
+}
+input:checked + .slider
+{
+background-color: #2196f3;
+}
+input:focus + .slider
+ {
+  box-shadow: 0 0 1ps #2196f3;
+  }
+  input:checked + .slider:before{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round{
+    border-radius: 15px;
+  }
+  .slider.round:before{
+    border-radius: 50%;
+    
+  }
+
+
+
+    </style>
+</head>
+<body bgcolor="#1d2029">
+   
+    <div id='mac'>
+      <label class=switch>
+        <input type="checkbox"> 
+        <div class="slider round" style="height: 19px; width: 0px; padding-left: 50px; padding-top: 0px; padding-right: 10px; padding-bottom: 0px; margin: 60px; margin-left: 1119px; margin-bottom: 0px; margin-top: 95px;"></div>
+      </label>
+    
+    <h2 style="font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px 10px;">Social Media Dashboard</h2> <h1 style="padding: 0px 100px 0px 0px; margin-bottom: 20px; margin: -40px; margin-right: 20px;">Dark mode</h1>
+    <h6 style="font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px 10px;">Total Followers: 23,004</h6>
+    
+      <div class='content' style="border-top: 2px solid blue;"> <img src="icon-facebook.svg" alt="facebook icon"><h1>@nathanf</h1> 
+    <br>
+    <h5>1983</h5>
+    <h3>FOLLOWERS</h3>
+    <img src="icon-up.svg" alt="Up image" id='chan'> <p>12 Today</p>
+    </div>
+    
+    <div class='content' style="border-top: 2px solid blue;">  <img src="icon-twitter.svg" alt="twitter icon"><h1>@nathanf</h1>
+      <br>
+      <h5>1044</h5>
+      <h3>FOLLOWERS</h3>
+      <img src="icon-up.svg" alt="Up image" id='chan'> <p>99 Today</p>
+      </div>
+
+      <div class='content' style="border-top: 2px solid #d48429;">  <img src="icon-instagram.svg" alt="instagram icon"><h1 style="padding-right: 5px;">@realnathanf</h1>
+      <br>
+      <h5>11K</h5>
+      <h3>FOLLOWERS</h3>
+      <img src="icon-up.svg" alt="Up image" id='chan'> <p>1099 Today</p>
+    </div>
+
+      <div class='content' style="border-top: 2px solid #ff0000;"> <img src="icon-youtube.svg" alt="youtube icon"><h1>@Nathan.F</h1>
+        <br>
+        <h5>8239</h5>
+        <h3>FOLLOWERS</h3>
+        <img src="icon-down.svg" alt="down image" id='chan'> <p id='red' style="color: red;">12 Today</p>
+      </div>
+
+      <h4 style="font-family: Arial, Helvetica, sans-serif; padding: 0px 0px 0px 13px;">Overviews - Today</h4>
+
+      <div class='conten'> <img src="icon-facebook.svg" alt="facebook icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 20px; padding-top: 0px; padding-right: 70px; padding-bottom: 10px; ">Page Views</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">85</h5> 
+        <img src="icon-up.svg" alt="Icon-up" style="padding: 2px 3px 50px 80px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 35px; margin: -20px; color: #32cd32;">3%</h1>
+
+      </div>
+      
+      <div class='conten'> <img src="icon-facebook.svg" alt="facebook icon" style="padding: 30px 0px 0px 100px; margin: -15px;"> <h1 style="padding-left: 100px; padding-top: 0px; padding-right: 70px; padding-bottom: 10px;">Likes</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">52</h5> 
+      <img src="icon-down.svg" alt="Icon-down" style="padding: 2px 3px 50px 80px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 35px; margin: -20px; color: red;">2%</h1>
+      </div>
+      <div class='conten'> <img src="icon-instagram.svg" alt="instagram icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 100px; padding-top: 0px; padding-right: 70px; padding-bottom: 10px;">Likes</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">5462</h5>
+        <img src="icon-up.svg" alt="Icon-up" style="padding: 2px 3px 50px 80px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 50px; padding-top: 0px; padding-right: 20px; margin: -20px; color: #32cd32;" >2257%</h1>
+
+      </div>
+      <div class='conten'> <img src="icon-instagram.svg" alt="instagram icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 20px; padding-top: 0px; padding-right: 60px; padding-bottom: 10px;">Profile Views</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">52K</h5>
+        <img src="icon-up.svg" alt="Icon-up" style="padding: 2px 3px 50px 80px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 20px; margin: -20px; color: #32cd32; ">1357%</h1>
+
+      </div>
+
+      <div class='conte'><img src="icon-twitter.svg" alt="twitter icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 100px; padding-top: 0px; padding-right: 70px; padding-bottom: 10px;">Retweets</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">117</h5>
+        <img src="icon-up.svg" alt="Icon-up" style="padding: 3px 2px 50px 60px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 35px; margin: -20px; color: #32cd32;">303%</h1>
+
+      </div>
+      <div class='conte'><img src="icon-twitter.svg" alt="twitter icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 100px; padding-top: 0px; padding-right: 70px; padding-bottom: 10px;">Likes</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">507</h5>
+        <img src="icon-up.svg" alt="Icon-up" style="padding: 3px 2px 50px 60px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 35px; margin: -20px;color: #32cd32; " >553%</h1>
+
+      </div>
+      <div class='conte'><img src="icon-youtube.svg" alt="youtube icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 100px; padding-top: 0px; padding-right: 70px; padding-bottom: 10px;">@Likes</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">107</h5>
+        <img src="icon-down.svg" alt="Icon-down" style="padding: 3px 1px 50px 60px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 35px; margin: -20px; color: red;">10%</h1>
+
+      </div>
+      <div class='conte'><img src="icon-youtube.svg" alt="youtube icon" style="padding: 30px 0px 0px 100px; margin: -15px;"><h1 style="padding-left: 20px; padding-top: 0px; padding-right: 60px; padding-bottom: 10px;">@Total Views</h1><br> <h5 style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: left; padding: 35px 0px 0px 15px;">1407</h5>
+        <img src="icon-down.svg" alt="Icon-down" style="padding: 3px 2px 50px 60px; margin: -20px; height: 7px; width: 7px;" > <h1 style="padding-left: 80px; padding-top: 0px; padding-right: 35px; margin: -20px; color: red;">12%</h1>
+
+      </div>
+    </div>
+      
+      
+</body>
+</html>
